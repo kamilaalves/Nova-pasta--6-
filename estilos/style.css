@@ -14,7 +14,7 @@ main{
     margin:auto;
 }
 .logo{
-    background-image: url(/img/fumaça.jpg);
+    background-image: url(../img/fumaça.jpg);
     height: 400px;
     background-position: right center;
     background-size:cover;

@@ -11,7 +11,7 @@ main{
     margin:auto;
 }
 .logo{
-    background-image: url(/img/capa2.jpg);
+    background-image: url(../img/capa2.jpg);
     height: 400px;
     background-position: right center;
     background-size:cover;
