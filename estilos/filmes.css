@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap');
+body{
+    margin:auto;
+    background-color: #272525;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    width: 85%;
+    margin:auto;
+}
+.logo{
+    background-image: url(/img/capa2.jpg);
+    height: 400px;
+    background-position: right center;
+    background-size:cover;
+    
+
+}
+.cabecalho nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-family:'Anton', sans-serif;
+  
+}
+.cabecalho nav ul li {
+    border: 1px solid rgb(61, 55, 55);
+    list-style: none;
+    padding: 10px;
+}
+.cabecalho a{
+    text-decoration: none;
+    color:#dcd9d9
+}
+.cabecalho li:hover {
+    background-color: #2f3c4b;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    color:#dcd9d9;
+}
+
+h2{
+    font-size: 'Anton', sans-serif;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color:#dcd9d9;
+    border-bottom: 2px solid rgb(14, 11, 11);
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color:#dcd9d9;
+    width: 40%;
+   
+}
+.gif {
+    padding: 7%;  
+}
+
+.conteudo img{
+    width: 330px;
+    height: 465px;
+}
+
+.botao {
+    background-color: #e61607;
+    color: #dcd9d9;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: #dcd9d9;
+}
+
+.voltar{
+    background-color: #1a1818;
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #1a1818;
+    color: #dcd9d9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top:30px;
+    padding: 20px;
+    text-align: center;
+}
