@@ -49,41 +49,21 @@ h1{
     font-size: 45px;
     font-family: 'Anton', sans-serif;
     color:#dcd9d9;
+    border-top: 1px solid black;;
 }
 
 .conteudo{
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     color:#dcd9d9;
-}
-.conteudo1{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  
-}
-
-.conteudo2{
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    gap: 30px;
 }
 
-.foto{
-    padding: 40px;
-  
-}
-.conteudo1 img{
-    width: 530px;
-    height: 330px;
-}
 
-.conteudo2 img{
-    width: 600px;
-    height: 400px;
-}
 .plataformas{
     display: flex;
     flex-direction: row;
