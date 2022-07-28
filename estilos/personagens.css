@@ -52,19 +52,20 @@ section{
     flex-direction: row;
     justify-content: center;
     color:#dcd9d9;
+    gap: 30px;
    
 }
 
 section img{
     width: 400px;
     height: 250px;
-    padding: 25px;
+ 
    
 }
 
 section p{
     width: 400px;
-    padding: 25px;
+   
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
 }
